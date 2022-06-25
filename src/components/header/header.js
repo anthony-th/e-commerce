@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import { CartBlock } from '../cart-block';
 import './header.css';
 
 export const header = () => {
-    return {
+    return (
         <div className="header">
             <div className="wrapper">
                 <Link to="/" className="header__store-title">
@@ -10,8 +12,8 @@ export const header = () => {
                 </Link>
             </div>
             <div className="wrapper header__cart-btn-wrapper">
-                cart
+                <CartBlock />
             </div>
         </div>
-    }
+    )
 }
