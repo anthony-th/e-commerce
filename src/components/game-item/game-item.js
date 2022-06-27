@@ -4,14 +4,18 @@ import { useDispatch } from "react-redux";
 import { GameCover } from "../game-cover";
 import { GameBuy } from "../game-buy";
 import { GameGenre } from "../game-genre";
+import { setCurrentGame } from "../../redux/games/reducer";
 import "./game-item.css";
+
 
 //типизировать на проптайпсы надо
 export const GameItem = ({ game }) => {
   const history = useHistory();
   const dispatch = useDispatch();
+  
   const handleClick = () => {
     dispatch(setCurrentGame(game));
+    history.push(`/app/${game.title}`);
   }
   return (
     <div className="game-item" onClick={ handleClick }>
