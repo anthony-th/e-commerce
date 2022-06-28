@@ -7,7 +7,12 @@
 }
 
 .btn--primary {
-  background-color: rgb(85, 88, 237);
+  background-color: rgba(39, 24, 134, 0.8);
+}
+
+.btn--primary:hover {
+  background-color: rgba(22, 13, 79, 0.8);
+  color: #eaeaea;
 }
 
 .btn--secondary {

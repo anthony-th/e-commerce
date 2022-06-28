@@ -15,12 +15,9 @@ export const GamePage = () => {
       <h1 className="game-page__title">{game.title}</h1>
       <div className="game-page__content">
         <div className="game-page__left">
-          <iframe
-            width="90%"
-            height="400px"
+          <iframe className="game-page__iframe"
             src={game.video}
             title="Youtube Video Player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
         </div>
