@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { GameBuy } from "../../components/game-buy";
 import { GameCover } from "../../components/game-cover/game-cover";
-import { GameGenre } from "../../components/game-genre";
+import { GameGenre } from "../../components/game-genre/game-genre";
 import "./game-page.css";
 
 export const GamePage = () => {
@@ -23,8 +23,8 @@ export const GamePage = () => {
         </div>
         <div className="game-page__right">
           <GameCover image={game.image} />
-          <p>{game.description}</p>
-          <p className="secondary-text">Популярные метки этого продукта:</p>
+          <p className="description">{game.description}</p>
+          <p className="secondary-text">Tags:</p>
           {game.genres.map((genre) => (
             <GameGenre genre={genre} key={genre} />
           ))}

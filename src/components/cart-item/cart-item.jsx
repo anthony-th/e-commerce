@@ -10,7 +10,7 @@ export const CartItem = ({
     <div className="cart-item">
       <span>{title}</span>
       <div className="cart-item__price">
-        <span>{price} rub.</span>
+        <span>$ {price}</span>
       </div>
     </div>
   );

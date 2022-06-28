@@ -6,10 +6,3 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-
-@media (max-width:990px) {
-  
-  .game-cover {
-    height: 25vh;
-  }
-}

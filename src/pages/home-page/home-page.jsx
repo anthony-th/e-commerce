@@ -17,7 +17,7 @@ const GAMES = [
     title: `Assassin's creed valhalla`,
     genres: ["action", "RPG"],
     price: 3600,
-    video: "https://www.youtube.com/embed/-GvDTvLRe3k",
+    video: "https://www.youtube.com/embed/VYiPNuuBQs0",
     id: 2,
     description: `Become Eivor, a legendary Viking raider on a quest for glory. Explore England's Dark Ages as you raid your enemies, grow your settlement, and build your political power. `,
   },
