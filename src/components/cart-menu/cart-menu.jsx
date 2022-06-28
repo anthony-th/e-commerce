@@ -17,7 +17,7 @@ export const CartMenu = ({ items, onClick }) => {
                 id={game.id}
               />
             ))
-          : "Корзина пуста"}
+          : "Your cart is empty"}
       </div>
       {items.length > 0 ? (
         <div className="cart-menu__arrange">
