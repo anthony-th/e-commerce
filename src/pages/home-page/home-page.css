@@ -3,5 +3,14 @@
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 50px;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1142px) {
+  
+  .home-page {
+    justify-content: space-evenly;
+    column-gap: 30px;
+  }
+
 }

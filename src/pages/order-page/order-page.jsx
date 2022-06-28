@@ -16,7 +16,7 @@ export const OrderPage = () => {
         </div>
         <div className="order-page__right">
           <div className="order-page__total-price">
-            <span>
+            <span className="order-page__total-price-block">
               Purchase <span className="order-page__price-select">{items.length}</span> item for <span className="order-page__price-select">$ { calcTotalPrice(items) }.</span>
             </span>
           </div>
@@ -34,7 +34,7 @@ export const OrderPage = () => {
       </div>
       <div className="order-page__right">
         <div className="order-page__total-price">
-          <span>
+          <span className="order-page__total-price-block">
             Purchase <span className="order-page__price-select">{items.length}</span> items for <span className="order-page__price-select">$ { calcTotalPrice(items) }.</span>
           </span>
         </div>

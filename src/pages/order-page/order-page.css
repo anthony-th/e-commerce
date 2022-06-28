@@ -12,3 +12,18 @@
 .order-page {
   padding-bottom: 50px;
 }
+
+@media screen and (max-width:680px) {
+
+  .order-page__left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    min-width: 350px;
+  }
+
+  body {
+    min-width: 400px;
+  }
+
+}
