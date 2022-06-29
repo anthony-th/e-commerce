@@ -11,6 +11,7 @@
   .home-page {
     justify-content: space-evenly;
     column-gap: 30px;
+    padding-bottom: 40px;
   }
 
 }
