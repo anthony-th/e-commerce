@@ -25,7 +25,7 @@ export const OrderPage = () => {
     ); 
   }
   if(items.length <1) {
-    return <h2>Your cart is empty</h2>
+    return <h2 className="order-page__title-empty">Your cart is empty</h2>
   }
   return (
     <div className="order-page">

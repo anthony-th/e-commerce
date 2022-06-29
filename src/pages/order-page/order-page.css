@@ -6,11 +6,17 @@
 }
 
 .order-page__price-select {
-  color: #d94b05;
+  color: #ff0266;
 }
 
 .order-page {
   padding-bottom: 50px;
+}
+
+.order-page__title-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width:680px) {

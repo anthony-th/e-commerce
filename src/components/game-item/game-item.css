@@ -3,7 +3,7 @@
   color: #ffffff;
   width: 320px;
   height: 290px;
-  background-color: rgb(36, 37, 41);
+  background-color: rgb(41, 42, 46);
   border-radius: 15px;
   cursor: pointer;
   position: relative;
@@ -33,4 +33,16 @@
   position: absolute;
   right: 0;
   bottom: -12px;
+}
+
+.game-item:hover {
+  background-color: rgba(41, 42, 46, 0.7);
+}
+
+.game-item:hover .game-cover,
+.game-item:hover .game-item__title,
+.game-item:hover .game-item__genre,
+.game-item:hover .game-buy__price,
+.game-item:hover .btn {
+  opacity: 0.9;
 }

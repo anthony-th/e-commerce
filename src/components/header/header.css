@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    padding-top: 20px;
 }
 
 .wrapper {
@@ -12,12 +13,39 @@
 }
 
 .header__store-title {
-    color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 42px;
     font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to right, 
+    #03dac6, 
+    #e83611,
+    #ff0266,
+    #e83611,
+    #78da85);
+    background-size: 300%;
+    background-position: -100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: linearGradient 10s infinite alternate-reverse;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.09em;
 }
 
 .header__cart-btn-wrapper {
     justify-content: flex-end;
+}
+
+@keyframes linearGradient {
+
+    to {
+        background-position: 100%;
+    }
+
+}
+
+.header__store-title:hover {
+    animation: none;
+    background-size: 200%;
 }
