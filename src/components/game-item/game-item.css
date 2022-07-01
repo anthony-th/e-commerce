@@ -1,0 +1,48 @@
+.game-item {
+  text-decoration: none;
+  color: #ffffff;
+  width: 320px;
+  height: 290px;
+  background-color: rgb(41, 42, 46);
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.game-item__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.game-item__genre {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-item__details {
+  padding: 10px 20px;
+}
+
+.game-item__description {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.game-item__buy {
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+}
+
+.game-item:hover {
+  background-color: rgba(41, 42, 46, 0.7);
+}
+
+.game-item:hover .game-cover,
+.game-item:hover .game-item__title,
+.game-item:hover .game-item__genre,
+.game-item:hover .game-buy__price,
+.game-item:hover .btn {
+  opacity: 0.9;
+}

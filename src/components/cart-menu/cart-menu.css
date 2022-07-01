@@ -1,0 +1,33 @@
+.cart-menu {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: rgb(36, 37, 41);
+  width: 300px;
+  padding: 15px 20px;
+  z-index: 2;
+  border-radius: 15px;
+}
+
+.cart-menu__wrapper {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.cart-menu__total-price {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  column-gap: 30px;
+}
+
+.total-price__price {
+  border-bottom: 2px solid #d94b05;
+}
+
+@media screen and (max-width: 768px) {
+  .cart-menu {
+    width: 250px;
+  }
+}

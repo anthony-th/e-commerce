@@ -1,0 +1,27 @@
+.cart-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item__price {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item__delete-icon {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.cart-menu__games-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  padding-bottom: 7px;
+}
+
+.cart-item__delete-icon:hover {
+  filter: invert(34%) sepia(15%) saturate(7073%) hue-rotate(359deg) brightness(101%) contrast(99%);
+}

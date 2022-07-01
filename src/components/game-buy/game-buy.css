@@ -1,0 +1,13 @@
+.game-buy {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  background-color: rgb(36, 37, 41);
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.game-buy__price {
+  display: flex;
+  justify-content: center;
+}

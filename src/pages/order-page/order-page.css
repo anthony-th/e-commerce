@@ -1,0 +1,35 @@
+.order-page__total-price {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.order-page__price-select {
+  color: #ff0266;
+}
+
+.order-page {
+  padding-bottom: 50px;
+}
+
+.order-page__title-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:680px) {
+
+  .order-page__left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    min-width: 350px;
+  }
+
+  body {
+    min-width: 400px;
+  }
+
+}
