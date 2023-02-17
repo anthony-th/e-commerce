@@ -1,0 +1,13 @@
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    font-size: 16px;
+    opacity: 50%;
+    cursor: default;
+    user-select: none;
+}

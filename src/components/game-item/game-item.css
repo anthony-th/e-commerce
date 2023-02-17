@@ -46,3 +46,12 @@
 .game-item:hover .btn {
   opacity: 0.9;
 }
+
+@media screen and (max-width:680px) {
+
+  .game-item {
+    width: 250px;
+    height: 320px;
+  }
+
+}
