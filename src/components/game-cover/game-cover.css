@@ -1,8 +1,14 @@
 .game-cover {
-  height: 190px;
+  height: 180px;
   width: 100%;
   background-size: cover;
   background-position: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+@media screen and (max-width:680px) {
+  .game-cover {
+    height: 230px;
+  }
 }

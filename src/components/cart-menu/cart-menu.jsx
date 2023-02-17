@@ -23,10 +23,10 @@ export const CartMenu = ({ items, onClick }) => {
         <div className="cart-menu__arrange">
           <div className="cart-menu__total-price">
             <span>Total:</span>
-            <span className="total-price__price">$ {calcTotalPrice(items)}</span>
+            <span className="total-price__price">$&nbsp;{calcTotalPrice(items)}</span>
           </div>
           <BuyButton type="primary" size="m" onClick={onClick}>
-            Purchase
+            Your&nbsp;cart
           </BuyButton>
         </div>
       ) : null}

@@ -3,13 +3,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
     padding-top: 20px;
+    min-width: 310px;
 }
 
 .wrapper {
     display: flex;
-    flex-grow: 1;
 }
 
 .header__store-title {
@@ -48,4 +47,25 @@
 .header__store-title:hover {
     animation: none;
     background-size: 200%;
+}
+
+@media screen and (max-width:680px) {
+
+    .header {
+        min-width: 280px;
+        padding: 0 20px;
+    }
+
+    .header__store-title {
+        font-size: 32px;
+    }
+  
+}
+
+@media screen and (max-width:360px) {
+
+    .header {
+        padding: 0 5px;
+    }
+  
 }

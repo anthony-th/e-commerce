@@ -11,7 +11,6 @@
 }
 
 .cart-item__delete-icon {
-  margin-left: 5px;
   cursor: pointer;
 }
 
@@ -23,5 +22,5 @@
 }
 
 .cart-item__delete-icon:hover {
-  filter: invert(34%) sepia(15%) saturate(7073%) hue-rotate(359deg) brightness(101%) contrast(99%);
+  filter: invert(23%) sepia(80%) saturate(6900%) hue-rotate(328deg) brightness(97%) contrast(110%);
 }

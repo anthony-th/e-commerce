@@ -9,27 +9,36 @@
   color: #ff0266;
 }
 
-.order-page {
-  padding-bottom: 50px;
-}
-
 .order-page__title-empty {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.order-page__left {
+  padding: 20px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4em;
+}
+
+.order-page {
+  padding: 10px 0 30px;
+}
+
 @media screen and (max-width:680px) {
 
-  .order-page__left {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    min-width: 350px;
+  .order-page__total-price {
+    justify-content: center;
   }
 
-  body {
-    min-width: 400px;
+  .order-page__total-price-block {
+    text-align: center;
+  }
+
+  .order-page__left {
+    gap: 2em;
   }
 
 }
