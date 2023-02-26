@@ -10,7 +10,7 @@ export const CartItem = ({
     <div className="cart-item">
       <span>{title}</span>
       <div className="cart-item__price">
-        <span>$&nbsp;{price}</span>
+        <span>{price=== 0 ? "free" : `$ ${price}`}</span>
       </div>
     </div>
   );

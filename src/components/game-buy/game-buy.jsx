@@ -16,22 +16,22 @@ export const GameBuy = ({ game }) => {
       dispath(setItemInCart(game));
     }
   };
-  if (game.price === 0) {
-    return (
-      <div className="game-buy">
-        <span className="game-buy__price">free</span>
-        <BuyButton
-          type={isitemInCart ? "secondary" : "primary"}
-          onClick={handleClick}
-        >
-          {isitemInCart ? "Remove" : "Add to cart"}
-        </BuyButton>
-      </div>
-    );
-  }
+  // if (game.price === 0) {
+  //   return (
+  //     <div className="game-buy">
+  //       <span className="game-buy__price">free</span>
+  //       <BuyButton
+  //         type={isitemInCart ? "secondary" : "primary"}
+  //         onClick={handleClick}
+  //       >
+  //         {isitemInCart ? "Remove" : "Add to cart"}
+  //       </BuyButton>
+  //     </div>
+  //   );
+  // }
   return (
     <div className="game-buy">
-      <span className="game-buy__price">$ {game.price}</span>
+      <span className="game-buy__price">{game.price=== 0 ? "free" : `$ ${game.price}`}</span>
       <BuyButton
         type={isitemInCart ? "secondary" : "primary"}
         onClick={handleClick}

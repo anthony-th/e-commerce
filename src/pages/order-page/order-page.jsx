@@ -21,9 +21,9 @@ export const OrderPage = () => {
               <span className="order-page__total-price-block">
                 Purchase{" "}
                 <span className="order-page__price-select">{items.length}</span>{" "}
-                item{items.length > 1 ? "s" : ""}{" "}for{" "}
+                item{items.length > 1 ? "s" : ""} for{" "}
                 <span className="order-page__price-select">
-                  ${" "}{calcTotalPrice(items)}.
+                  {calcTotalPrice(items) === 0 ? "free" : `$ ${calcTotalPrice(items)}`}.
                 </span>
               </span>
             </div>

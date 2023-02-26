@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   position: relative;
+  gap: 15px;
 }
 
 .cart-block__total-price {
-  margin-left: 15px;
   font-size: 18px;
   font-weight: bold;
 }

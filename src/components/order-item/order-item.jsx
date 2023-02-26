@@ -21,7 +21,7 @@ export const OrderItem = ({ game }) => {
           <span>{game.title}</span>
         </div>
         <div className="order-item__price">
-          <span>$&nbsp;{game.price}</span>
+          <span>{game.price === 0 ? "free" : `$ ${game.price}`}</span>
           <AiOutlineCloseCircle
             size={25}
             className="cart-item__delete-icon"
@@ -29,7 +29,7 @@ export const OrderItem = ({ game }) => {
           />
         </div>
       </div>
-      <hr className="order-item__border-line"/>
+      <hr className="order-item__border-line" />
     </div>
   );
 };
